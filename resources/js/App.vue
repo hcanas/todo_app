@@ -72,6 +72,10 @@
                 axios.post(`/api/tasks`, this.form_data)
                     .then(response => {
                         this.show_modal = false;
+                        this.form_data = {
+                            title: '',
+                            description: '',
+                        };
 
                         if (Object.keys(this.list).length > 0) {
                             this.list.unshift(response.data);
