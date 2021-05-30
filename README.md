@@ -1,5 +1,5 @@
-### Overview
-================================================================
+#### Overview
+---
 
 A simple and mobile-friendly todo app built with VueJS 3, Laravel 8.4, and TailwindCSS. The app has a list and a history window with general search. 
 
